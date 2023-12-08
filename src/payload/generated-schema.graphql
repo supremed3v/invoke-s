@@ -75,6 +75,7 @@ enum Page_Hero_type {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 """
@@ -1153,6 +1154,7 @@ enum Post_Hero_type {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 type Post_Hero_Links {
@@ -1708,6 +1710,7 @@ enum Project_Hero_type {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 type Project_Hero_Links {
@@ -2489,6 +2492,7 @@ enum Page_hero__type_Input {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 input Page_hero__richText_operator {
@@ -3453,6 +3457,7 @@ enum PageVersion_Version_Hero_type {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 type PageVersion_Version_Hero_Links {
@@ -4066,6 +4071,7 @@ enum versionsPage_version__hero__type_Input {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 input versionsPage_version__hero__richText_operator {
@@ -4447,6 +4453,7 @@ enum Post_hero__type_Input {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 input Post_hero__richText_operator {
@@ -5640,6 +5647,7 @@ enum PostVersion_Version_Hero_type {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 type PostVersion_Version_Hero_Links {
@@ -6301,6 +6309,7 @@ enum versionsPost_version__hero__type_Input {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 input versionsPost_version__hero__richText_operator {
@@ -6674,6 +6683,7 @@ enum Project_hero__type_Input {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 input Project_hero__richText_operator {
@@ -7696,6 +7706,7 @@ enum ProjectVersion_Version_Hero_type {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 type ProjectVersion_Version_Hero_Links {
@@ -8320,6 +8331,7 @@ enum versionsProject_version__hero__type_Input {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 input versionsProject_version__hero__richText_operator {
@@ -16600,6 +16612,7 @@ enum Page_Hero_type_MutationInput {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 input mutationPage_Hero_LinksInput {
@@ -16667,6 +16680,7 @@ enum PageUpdate_Hero_type_MutationInput {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 input mutationPageUpdate_Hero_LinksInput {
@@ -16745,6 +16759,7 @@ enum Post_Hero_type_MutationInput {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 input mutationPost_Hero_LinksInput {
@@ -16823,6 +16838,7 @@ enum PostUpdate_Hero_type_MutationInput {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 input mutationPostUpdate_Hero_LinksInput {
@@ -16892,6 +16908,7 @@ enum Project_Hero_type_MutationInput {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 input mutationProject_Hero_LinksInput {
@@ -16961,6 +16978,7 @@ enum ProjectUpdate_Hero_type_MutationInput {
   highImpact
   mediumImpact
   lowImpact
+  customHero
 }
 
 input mutationProjectUpdate_Hero_LinksInput {

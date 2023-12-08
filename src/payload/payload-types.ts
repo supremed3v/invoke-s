@@ -44,6 +44,7 @@ export interface Page {
         };
         url: string;
         label: string;
+        icon?: string | Media;
         appearance?: 'default' | 'primary' | 'secondary';
       };
       id?: string;
@@ -66,6 +67,7 @@ export interface Page {
             };
             url: string;
             label: string;
+            icon?: string | Media;
             appearance?: 'primary' | 'secondary';
           };
           id?: string;
@@ -91,6 +93,7 @@ export interface Page {
             };
             url: string;
             label: string;
+            icon?: string | Media;
             appearance?: 'default' | 'primary' | 'secondary';
           };
           id?: string;
@@ -226,6 +229,7 @@ export interface Post {
         };
         url: string;
         label: string;
+        icon?: string | Media;
         appearance?: 'default' | 'primary' | 'secondary';
       };
       id?: string;
@@ -248,6 +252,7 @@ export interface Post {
             };
             url: string;
             label: string;
+            icon?: string | Media;
             appearance?: 'primary' | 'secondary';
           };
           id?: string;
@@ -273,6 +278,7 @@ export interface Post {
             };
             url: string;
             label: string;
+            icon?: string | Media;
             appearance?: 'default' | 'primary' | 'secondary';
           };
           id?: string;
@@ -362,6 +368,7 @@ export interface Post {
             };
             url: string;
             label: string;
+            icon?: string | Media;
             appearance?: 'primary' | 'secondary';
           };
           id?: string;
@@ -387,6 +394,7 @@ export interface Post {
             };
             url: string;
             label: string;
+            icon?: string | Media;
             appearance?: 'default' | 'primary' | 'secondary';
           };
           id?: string;
@@ -505,6 +513,7 @@ export interface Project {
         };
         url: string;
         label: string;
+        icon?: string | Media;
         appearance?: 'default' | 'primary' | 'secondary';
       };
       id?: string;
@@ -527,6 +536,7 @@ export interface Project {
             };
             url: string;
             label: string;
+            icon?: string | Media;
             appearance?: 'primary' | 'secondary';
           };
           id?: string;
@@ -552,6 +562,7 @@ export interface Project {
             };
             url: string;
             label: string;
+            icon?: string | Media;
             appearance?: 'default' | 'primary' | 'secondary';
           };
           id?: string;
@@ -712,6 +723,7 @@ export interface Header {
       };
       url: string;
       label: string;
+      icon?: string | Media;
     };
     id?: string;
   }[];
@@ -731,6 +743,7 @@ export interface Footer {
       };
       url: string;
       label: string;
+      icon?: string | Media;
     };
     id?: string;
   }[];

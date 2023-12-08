@@ -14,8 +14,8 @@ export const ThemeSelector: React.FC = () => {
   const { setTheme } = useTheme()
   const [show, setShow] = React.useState(false)
 
-  const onThemeChange = (themeToSet: Theme & 'auto') => {
-    if (themeToSet === 'auto') {
+  const onThemeChange = (themeToSet: Theme & 'light') => {
+    if (themeToSet === 'light') {
       setTheme(null)
       if (selectRef.current) selectRef.current.value = 'auto'
     } else {

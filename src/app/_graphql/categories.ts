@@ -9,11 +9,11 @@ export const PROJECTS_CATEGORIES = `categories {
 
 export const CATEGORIES = `
   query Categories {
-    Categories (limit: 300){
+    Categories(limit: 300) {
       docs {
         id
         title
-        media{
+        media {
           alt
           width
           height

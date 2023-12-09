@@ -1,4 +1,5 @@
 import { ARCHIVE_BLOCK, CALL_TO_ACTION, CONTENT, MEDIA_BLOCK } from './blocks'
+import { PROJECTS_CATEGORIES } from './categories'
 import { LINK_FIELDS } from './link'
 import { MEDIA } from './media'
 import { META } from './meta'
@@ -19,9 +20,7 @@ export const PROJECT = `
       docs {
         id
         title
-        categories {
-          title
-        }
+       ${PROJECTS_CATEGORIES}
         createdAt
         hero {
           type
